@@ -1,0 +1,116 @@
+@import config
+global_reset()
+
+// general
+html,body
+  font: FS[0] F[0]
+  color: W[0]
+  background: B[0]
+  font-weight: 100
+  opacity:1 !important
+  link(W[1],W[4])
+  size:100%
+  min-height:100%
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  overflow:hidden
+
+  // @media only screen and (max-width:1050px) 
+  //   background:url(/images/space.jpg) no-repeat fixed center center !important
+  //   background-size: cover
+
+// base classes
+b,strong
+  font-weight: 700
+
+.unselectable
+  selectable: none
+
+.text-align-center
+  text-align: center !important
+
+.text-align-left
+  text-align: left !important
+
+.text-align-right
+  text-align: right !important
+
+.text-align-justify
+  text-align: justify !important
+
+.put-left
+  float: left
+
+.put-right
+  float: right
+
+.clear
+  clear:both
+
+.clear-left
+  clear:left
+
+.clear-right
+  clear:right
+
+.clearfix
+  clearfix()
+
+.non-visible
+  display: none
+  animation-play-state: paused
+
+.hidden
+  display: none 
+
+.force-hidden
+  display: none !important
+
+.force-clear
+  clear:both !important
+
+.force-clear-left
+  clear:left !important
+
+.force-clear-right
+  clear:right !important
+
+.paused
+  animation-play-state: paused !important
+
+input
+  font-family: F[1]
+  -webkit-appearance: none
+  border-radius: 0
+
+*:focus
+  outline: none
+  
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
+.ng-cloak, .x-ng-cloak,
+.ng-hide {
+    display: none !important;
+}
+
+.container
+  size:100%
+  overflow-x:hidden
+  overflow-y:scroll
+  transform:translate3d(0,0,0)
+  -webkit-overflow-scrolling: touch
+
+.wrapper
+  size:100%
+  overflow-y:scroll
+  absolute:top left
+
+.ghost
+  opacity:0
+
+.title
+  font-size: 40px
+  margin: 20px
+
+
+// icons
+@import icons
+@import "../../bower_components/kaymak.js/dev/kay_no_icons.styl"

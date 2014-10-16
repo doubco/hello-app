@@ -1,0 +1,29 @@
+{
+  "name": "Hello",
+  "version": "0.0.1",
+  "homepage": "https://github.com/doubco/hello",
+  "authors": [
+    "Berkay Sargın <berkaey@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-sanitize": "~1.2.16",
+    "hammerjs": "~1.0.10",
+    "normalize-styl": "*",
+    "nib": "~1.0.2",
+    "jquery": "~2.1.0",
+    "jquery-hammerjs": "~1.1.2",
+    "angular": "~1.2.16",
+    "google-maps-utility-library-v3": "*",
+    "jquery-easing-original": "~1.3.1",
+    "kaymak.js": "~0.1.2"
+  }
+}
