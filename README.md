@@ -18,7 +18,7 @@ then install project dependencies
   bower install
 ```
 
-to start and go localhost:3000
+start and go localhost:3000
 
 ```
   grunt
