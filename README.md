@@ -18,11 +18,13 @@ then install project dependencies
   bower install
 ```
 
-start and go localhost:3000
+start
 
 ```
   grunt
 ```
+
+and go localhost:3000
 
 Pre-processors 
 - Coffeescript
